@@ -1,7 +1,3 @@
-@font-face { /* Définition d'une nouvelle police nommée CAC Champagne*/
-	font-family: 'cac_champagneregular' ;
-	src: url('cac_champagne-webfont.eot');
-	src: url('cac_champagne-webfont.eot?#iefix') format('embedded-opentype'), url('cac_champagne-webfont.woff') format('woff'), url('cac_champagne-webfont.ttf') format('truetype'), url('cac_champagne-webfont.svg#cac-champagneregular') format('svg'); }
 
 	@font-face { /* Définition d'une nouvelle police nommée font-face*/
 	font-style: normal;
@@ -14,20 +10,75 @@
 }
 header 
 {
- text-align: right;
- font-family: '', Arial, sans-sertif;
+
+ font-family: 'font-face', Arial, sans-sertif;
+ color:#000;
+}
+
+a
+{
+	text-decoration: blink;
+	color: black;
+}
+
+header img
+{
+	background-color: none;
+}
+
+header:hoover
+{
+	text-decoration: underline;
+}
+
+header:visited
+{
+	color:black;
+}
+    
+.header1
+{
+    display: flex;
+    align-items: flex-end;
+}
+.header2
+{
+	display: flex;
+	justify-content: right;
+  	align-items: flex-end;
+}
+
+.LSG
+{
+	background-color: rgb(0, 128, 255);
+	color: white
+}
+.toolbar
+{
+
+	margin: 20px;
+	padding: 40px;
+	background-color: white;
+	border-style: solid;
 }
 
 body
 {
-	background-color: white
+	background-color: white;
+	text-decoration:none;
 }
 
 
 .centre {
 	width:auto;
 	text-align: center;
+	margin: 200px;
+}
 
+.recherche
+{background-color: #C4C4C2;
+padding: 10px;
+margin: 7px;
 
 }
 
@@ -41,21 +92,11 @@ body
 
 footer
 {
-   
-    background-color: #c4c4c2
+	display: flex;
+	background-color: #C4C4C2;
+	}
 
-    }
-.header1
+.fr
 {
-    display: flex;
-	align-items: flex-end;
-
-}
-
-.header2
-{
-display: flex;
-	justify-content: right;
-	align-items: flex-end;
-
+	border-style: solid;
 }
