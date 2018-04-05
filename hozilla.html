@@ -5,30 +5,47 @@
     <head>
 
         <meta charset="utf-8" />
-        <link rel="stylesheet" href="googlestyle.css" />
+        <link rel="stylesheet" href="czilla.css" />
         <title> Google</title>
 
     </head>
 
     <body>
 
-<header>
+<header id="ok">
 
-            <div class="LHD"><a href=https://mail.google.com/mail/?tab=wm > Gmail</div> 
+            <span> <a href=https://mail.google.com/mail/?tab=wm > Gmail </span> 
 
-            <div class="LHD"><a href= https://www.google.fr/imghp?hl=en&tab=wi> Images</div> 
+            <span> <a href= https://www.google.fr/imghp?hl=en&tab=wi> Images </span>
 
-             <figure class="LAPP">
-                <img src="app.png" alt="application" />
-            </figure>
+             <span> <a href=https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.fr/%3Fgfe_rd%3Dcr%26dcr%3D0%26ei%3Drs_EWovYLq_c8Ae4v56ACA > sign in </a> </span>
 
-             <div class="LSG"> <a href=https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.fr/%3Fgfe_rd%3Dcr%26dcr%3D0%26ei%3Drs_EWovYLq_c8Ae4v56ACA > sign in </a></div>
+              <span> <img src="app.png" alt="application" /> </span>
 </header>
 
     
-    <section class="grande centre"> 
-            
-            <p> <img src="google_logo.png" class="logo" alt="Image logo" /> </p>
+<!--                  a section "java"                  -->
+
+
+    <section class="grande centre">
+
+
+
+
+<p id="demo" style="display:none"> <img src="google_logo.png" class="logo" alt="Image logo" />  </p>
+<p id="demo1" style="display:none"> <span> </span>   </p>
+
+
+
+
+<button type="button" onclick="document.getElementById('demo').style.display='block'">AFFICHER LES ÉLÉMENTS CENTRAUX</button>
+
+
+
+<!--                  a section "java"                  -->
+
+
+
         
             <div class=" toolbar">  </div>
 
@@ -75,7 +92,9 @@
 
         </footer>
 
-        
+
+
+        <script src="scripts/main.js"></script>
 
     </body>
 
